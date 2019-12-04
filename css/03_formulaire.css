@@ -1,0 +1,16 @@
+/*feuille de style pour mon premierr formulaire HTML*/
+
+
+body{
+    background-color: rgba(68, 6, 6, 0.424);
+}
+
+/* ici les styles pour le formulaire */
+
+fieldset {
+    border:1px solid rgb(126, 90, 23);
+}
+
+legend {
+    background-color: rgb(83, 85, 109);
+}
