@@ -1,0 +1,87 @@
+/* feuille de style pour la page avec des images */
+
+body {
+    background-color: lightgray;
+}
+a.bulleinfo { 
+
+    position: relative; 
+  
+    text-decoration: none; 
+  
+    /* Le choix de l'attribut text-decoration est fonction de votre choix pour l'affichage du lien correspondant à l'infobulle */
+  
+    color: #000000;
+  
+  /* Le choix de  couleur de texte est un choix personnel */
+  
+    }
+  
+  
+  a.bulleinfo:hover { 
+  
+    background-color: white;
+  
+  /* Le choix de  couleur de l'arrière-plan de la bulle après passage de la souris (hover) est un choix personnel */
+  
+  }
+  
+  
+  a.bulleinfo span { 
+  
+    display: normal;
+  
+  /* le choix de none pour display permet de masquer tout le texte devant apparaître dans la bulle au passage de la souris (saisi entre les balises <span> ... </span>) */
+  
+  }
+  
+  
+  a.bulleinfo:hover span { 
+  
+  /* le texte saisi entre les balises <span> ... </span>) doit s'afficher au passage de la souris sur le lien */
+  
+    display: block; 
+  
+  /* le choix de bloc pour display permet d'afficher tout le bloc de texte contenu dans la bulle */
+  
+    position: absolute; 
+  
+  /* la position absolute, se fera par rapport à la balise "a:bulleinfo span" (le parent) qui est en position relative avec les valeurs indiquées pour top, left et width */
+  
+    top: 30px; 
+  
+    left: 10px; 
+  
+    width: 300px;
+  
+    border: 1px;
+  
+  /* l'encadrement de la bulle sera d'une épaisseur de 1pixel,  ceci sur les 4 cotés */ 
+  
+    border-style: solid;
+  
+  /* border-style indique l'aspect de la bordure (c'est à dire bordure continue) */
+  
+    border-color: #000000; 
+  
+  /* border-color indique la couleur de la bordure (noire pour cet exemple) */
+  
+    color: #000000;  
+  
+  /* color indique la couleur de la police */
+  
+    text-align: justify; 
+  
+    background-color : white;
+  
+  /* Le choix de  couleur de l'arrière-plan de la bulle après passage de la souris (hover) est un choix personnel */
+  
+    font-weight: normal;  
+  
+  /* par défaut la police est en gras avec normal, cette propriété est annulée */ 
+  
+    padding: 5px; 
+  
+  /* l'attribut padding permet de créer un espace donné (en pixels) entre la bordure et le bloc de texte */ 
+  
+   }

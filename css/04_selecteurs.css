@@ -1,0 +1,26 @@
+/* feuille de style pour la page selecteur */
+
+body {
+    background-color: papayawhip;
+    color: orangered;
+}
+/* des classes pour la page */
+
+.zone1 {
+background-color: palegreen;
+height: 50px;
+}
+
+.zone2 {
+    background-color: palevioletred;
+    /* hauteur du bloc  */
+    height: 70PX; 
+
+}
+
+/* des styles pour des ID */
+
+#zone3 {
+    background-color: royalblue;
+    color: whitesmoke;
+}
