@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>ExO_03</title>
+
+<style>
+
+body{
+background-color: orange;
+} 
+abbr {
+    background-color: orange;
+    color: blue;
+    /* font weight: épaisseur du caractère */
+    font-weight: bold;
+}
+code {
+    background-color: rgb(76, 0, 255);
+    color: rgb(0, 255, 170);
+    /* font weight: épaisseur du caractère */
+    font-weight: bold;
+}
+</style>
+
+</head>
+
+<body>
+    <hr>
+    <!-- ol>li*5>ul>li*3 -->
+    <h2>Des listes non ordonnnées imbriquées dans une liste ordonnées faites de 5 éléments de liste</h2>
+    <ol>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+    </ol>
+    <h1><strong>EXO_3</strong> </h1>
+        
+    <ol>
+        <!--L'élément ABBR pour dire qu'il y a une abbréviation-->
+    </ol>
+
+<ol>
+    <li> <abbr>HTML</abbr>: HyperText Markup Language<br>
+        <ul>
+            <li>c'est la structure de la page html ou on organise les titres, paragraphees, listes,<br></li>
+        </ul> tableaux...
+    </li>
+
+    <li> <abbr>CSS</abbr>: Cascading Style Sheet
+      </li>
+
+    <li>C'est la mise en forme, le désign, l'apparence (les couleurs, les tailles, les<br> positionnement sur la page)</li>
+</ol>
+
+<ol>
+    <li>Terminologie<ul><li>
+        
+            <li>Eléments: ils définissent la structure et le contenu des objets au sein d'une page 
+les plus couramment utilisés sont les niveaux de titre (h1 à h6)et les paragraphes<br> (avec la balise p)</li>
+            <li>Balises: elles sont reconnaissables car elles sont encadrées d'un chevron ouvrant<br>et d'un chevron fermant. L'ouverture d'une balise détermine le début
+d'un élément.
+<br> Sa fermeture détermine sa fin. Le contenu qui est inséré entre une balise ouvrante<br>et fermante représente le contenu de cette élément. 
+Par exemple, un lien html sera<br>encadré d'une balise A ouvrante et fermante. Il existe ausse des balises<br>auto-fermantes (aussi dites orphelines).</li>
+
+    <li>Attributs: ce sont des propriétés utilisées pour fournir des informations<br>complémentaires sur un élément. Les attributs les plus communs incluent 
+l'attribut<br>ID (qui identifie un élément), l'attribut CLASS (qui clasifie un élément), l'attribut<br>SRC (qui spécifie la source d'un contenu qui peut etre imbriqué)
+et l'attribut HREF<br>(qui contient u lien hypertexte vers une ressouces liées). Les attributs sont définis<br>au sein de la balise ouvrante après le nom de
+l'élément:<br>
+
+<code>
+<a>&lt;a href="https://github.com/Ma6Tvacoder-Docs/partaes">Lien</a></ul>
+</code> 
+
+
+</ul>
+    </li>
+
+    <li>Structure<li>un fichier Html est un fichier de texte brut (non mise en forme) enrengistré avec<br>l'extention_.html_.<br> <li>tous les fichiers html ont une 
+structure de base qui implique de déclarer les<br>éléments suivants:<br></li>   
+<code>&lt;!Doctype html><br></code>
+
+<code>&lt;html><br></code>
+<code>&lt;head> <br></code>
+<code>&lt;title> &lt;/title> <br>  </code>
+<code>&lt;/html><br></code>
+<code>&lt;body><br></code>
+<code>&lt;/body><br></code>
+<code>&lt;/html></code>
+
+
+
+
+
+
+
+<strong>!DOCTYPE html</strong> informe que le navigateur web que le document est de type html et<br>qu'il s'agit (ici) de la derniere version de language, 
+le HTML 5. En HTML 4.01, la<br>la précédente version avant la 5, cette balise s'écrivais 
+<code>&lt;!DOCTYPE HTML PUBLIC<br>"-//WC//DTD HTML 4.01 Frameset//EN"</code><br>
+<code>"http://www.w3.org/TR/html4/frameset.dtd"><br></code>
+à  l'intérieur de l'élément html la balise <strong>head</strong> identifie le début du documentet inclut
+<br>les métadonnées (informations sur la page). Le contenu à l'intérieur de la balise<br>head n'est pas 
+affiché par le navigateur puisqu'il donne des informations sur la<br>page (liens vers des fichiers externes, utilisation du langage html, titre de la page).<br>
+tout ce qui s'affichera dans le navigateur est inclus à l'intérieur de la balise <strong>body.</strong><br>
+quand un élément est placé au sein d'un autre (ou imbriqué) il est important d'<br>
+<strong>indenter</strong> 
+cet élément en le déclarant vers la droite à l'aide de la tabulation pour<br> conserver une structure bien organisée et lisible pour tout le monde.<br> 
+les balises en paires comportent une balise ouvrante et une balise fermante<br>
+indiquant pour chacune le début et la fin de l'élement correspondant.<br>
+les balises auto-fermantes correspondent à des éléments ponctuels dans une page<br>
+html, pas besoin de fournir une information de fin (inserer une image ou un lien par<br>exemple). Les plus courantes:<br>
+
+<code>"code>
+
+
+</li>
+<li></li>
+</ol>
+
+
+
+</body>
+</html>
