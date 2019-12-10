@@ -3,9 +3,9 @@
 body {
     background-color: grey;
 }
-
+/* On a fait une section */
 .rectangle {
-    border: 1px solid red;
+    border: 1px solid rgb(68, 0, 255);
     /* largeur */
     width: 50em;
     /* hauteur */
