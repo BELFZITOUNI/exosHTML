@@ -1,15 +1,34 @@
 /* feuille de style pour la page des dégradées */
 
 body {
-    background-color: grey;
+    background-color: rgb(66, 74, 88);
 }
-/* On a fait une section */
-.rectangle {
+
+
+/* On fait une section */
+.carre {
+    /* une couleur en dégradé sur la class .rectangle, un dégradé qui démarre avec la 1ère couleur et finit avec la 2nde couleur, par défaut, de haut en bas. */
+    background: linear-gradient(to right,#40a46d, rgb(72, 68, 121));
     border: 1px solid rgb(68, 0, 255);
     /* largeur */
-    width: 50em;
+    width: 60em;
     /* hauteur */
     height: 50em;
     /* pas de marge (valeur0) en haut et en bas  et la valeur auto laisse le navigateur centrer l'élément */
     margin: 0 auto;
+}
+
+.cercle {
+    background: linear-gradient(to right, rgb(36, 58, 38), blue);
+
+    border: 1px solid rgb(68, 0, 255);
+
+    width: 60em;
+
+    height: 50em;
+
+    margin: 0 auto;
+
+    /* la propriété border-radius permet d'arrondir plus ou moins les angles */
+    border-radius: 100%;
 }
