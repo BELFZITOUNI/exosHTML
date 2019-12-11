@@ -1,26 +1,92 @@
 /* feuille de style pour la page selecteur */
 
+
 body {
     background-color: papayawhip;
     color: orangered;
+    /* taille de la police ou de la de la typo ou de la font (et pas de l'écriture */
+    font-size: 15px;
 }
-/* des classes pour la page */
 
-.zone1 {
-background-color: palegreen;
-height: 50px;
+/* des propriétés pour la section et pour les différents paragraphes de la section */
+section {
+    background-color: lightgray;
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
 }
+
+section p {
+    /* Tous les P à l'intérieur de la balise SECTION ont une couleur */
+    color: olive;
+}
+
+section p:first-child {
+    /* Le premier p de chaque section sera darkblue et en gras (bolder); premier enfant d'un élément */
+    color: darkblue;
+    font-weight: bolder;
+    background-color: grey;
+}
+
+section p:last-child {
+    /* Le dernier p de chaque section aura un fond orange, dernier enfant d'un élément */
+    background-color: orange;
+}
+
+section p:nth-child(3), p:nth-child(6) {
+    /* le 3ème P de chaque section sera en majuscule (uppercas); le énième d'un élément et si on veut déclaré en même temps mettre un autre p:nth*/
+    text-transform: uppercase;
+}
+
+section p:nth-child(even) {
+    /* tous les P paire (paire) */
+    background-color: indigo;
+}
+
+section p:nth-child(odd) {
+    /* tous les P impaire (impaire) */
+    background-color: lightgreen;
+}
+
+section p:nth-child(5), p:nth-child(9) {
+    /* le 5ème et le 9ème P de chaque section auront la 1ère lettre du mot en majuscule (capitalize); le énième d'un élément */
+    text-transform: capitalize;
+    height: 50px;
+}
+
+.zone1, .zone2 {
+    /* hauteur du bloc */
+    height: 100px;
+}
+
+/* Des classes pour la page */
+.zone1 {
+    background-color: palegreen;
+
+  }
 
 .zone2 {
     background-color: palevioletred;
-    /* hauteur du bloc  */
-    height: 70PX; 
-
+    /* Hauteur du bloc  */
 }
 
-/* des styles pour des ID */
-
+/* Des styles pour des ID */
 #zone3 {
+    /* ID donc avant son nom je mets # */
     background-color: royalblue;
     color: whitesmoke;
+    
 }
+
+#zone3::before {
+    /* on rajoute du contenu (content) avant l'ID zone 3 */
+    content: "Rajouté après la zone 3";
+}
+
+#zone3:after {
+    /* on rajoute du contenu (content) après l'ID zone 3 */
+    content: "Rajouté après la zone 3";
+}
+
+
+
