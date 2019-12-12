@@ -1,11 +1,32 @@
 body {
     background-color: grey;
+    
 }
 
-.cubitus {
-    background-color: gold;
+.c1, .c2 {
+    /* background-color: gold; */
     width:150px; 
     height: 150px; 
-    border: 2-px solid green;
+    margin: 5px;
+
+    float: left;
+
+    border: 10px crimson;
+    text-align: center;
+    border-radius: 20%;
+}
+
+.c1 {
+    background-color: blueviolet;
+  
+}
+
+.c2 {
+    background-color: cornflowerblue; 
+    border-radius: 40% ;
+}
+
+.clear {
+    clear: both;
 }
 
