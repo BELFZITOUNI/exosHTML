@@ -1,0 +1,64 @@
+/* Feuille de style pour le second zoning */
+
+body {
+    background: linear-gradient(to right, rgb(36, 58, 38), blue);
+    font-size: 25px;
+    color: white;
+}
+
+#contenu {
+    width: 80%;
+    border: 5px solid whitesmoke;
+    margin: 0 auto;
+}
+
+header {
+    background-color: tomato;
+    height: 100px;
+}
+
+nav {
+    background-color: gray;
+    height: 50px;
+}
+
+section {
+    background-color: rgb(57, 57, 97);
+    height: 500px;
+}
+
+footer {
+    background-color: goldenrod;
+    height: 100px;
+    
+}
+
+/* supprime l'effet flottant */
+.clear {
+    clear:both;
+}
+
+.a, .b, .c, .d {
+    width: 30%;
+    height: 250px;
+    /* Effet flottant (float): permet de placer des balises
+    côte à côte alors que selon le flux du web standard les éléments se placent
+     les uns au dessus des autres */
+    float: left;
+}
+
+.a {
+    background-color: burlywood;
+}
+
+.b {
+    background-color: chocolate;
+}
+
+.c {
+    background-color: cyan;
+}
+
+.d {
+    background-color: darkolivegreen;
+}

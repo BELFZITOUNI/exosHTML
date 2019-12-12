@@ -1,0 +1,11 @@
+body {
+    background-color: grey;
+}
+
+.cubitus {
+    background-color: gold;
+    width:150px; 
+    height: 150px; 
+    border: 2-px solid green;
+}
+

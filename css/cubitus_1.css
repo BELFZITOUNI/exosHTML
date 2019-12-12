@@ -1,0 +1,58 @@
+body {
+    background-color: grey;
+}
+#contenu {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    /* background-color: rgb(57, 57, 97); */
+    height: 100%;
+}
+
+.a, .b, .c, .d, {
+    width: 50%;
+    height: 250px;
+    float: left;
+    border: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.e, .f, .g, {    
+    width: 50%;
+    height: 250px;
+    float: left;
+    border: 50px
+} 
+
+.clear {
+    clear: both;
+}
+
+.h, .i, {
+    width: 50%;
+    height: 250px;
+    float: left;
+    border: 50px
+
+}
+
+.clear {
+    clear: both;
+}
+
+.j, {
+    width: 50%;
+    height: 250px;
+    float: left;
+    border: 50px
+
+}
+
+.clear {
+    clear: both;
+}
