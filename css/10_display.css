@@ -5,6 +5,15 @@ body {
     background-color: grey;
 }
 
+h1, h3, div, p {
+    text-align: center;
+    background-color: cadetblue;
+}
+
+h1:hover {
+    background-color: crimson;
+}
+
 .encadre {
     border: 1px solid orange;
     padding: 2px;

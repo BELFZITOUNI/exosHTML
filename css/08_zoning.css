@@ -22,12 +22,57 @@ header,footer {
     padding-top: 10px;
 }
 
+/* les styles pour la navigation dans l'élément nav */
 nav {
     height: 60px;
     background-color: lightsalmon;
     padding-left: 40px;
 }
 
+
+nav ul{
+    /* (list-style-type): pour être sur de ne pas avoir de puces dans cette ul */
+    list-style-type: none;
+    background-color: burlywood;
+}
+
+/* pour pointer les li qui sont dans la balise nav */
+nav li {
+    display: inline;
+}
+
+/* le lien pas encore visité */
+nav li a {
+    color: white;
+    background-color: tomato;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+}
+
+/* le lien pas encore visité */
+nav li a:link {
+    color: blue;
+}
+
+/* La pseudo class est toujours précedée de 2 points sans espace */
+/* le lien au survol de la souris */
+nav li a:hover {
+    color: orange;
+    background-color: brown ;
+}
+
+/* le lien au clic de la souris, selectionné */
+nav li a:active {
+    background-color: royalblue;
+}
+
+/* le lein visité */
+nav li a:visited {
+    background-color: purple;
+}
+
+/* les styles pour la section */
 section {
     border: 20px solid lightseagreen;
     height: 400px;
