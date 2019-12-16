@@ -1,0 +1,33 @@
+body {
+    background-color: grey;
+}
+.cub1, .cub2 {
+    background-color: brown;
+    width: 150%;
+    margin: 5px;
+    height: 150px;
+    border:2px solid blue;
+    border-radius: 20%;
+    float: right;
+    text-align: center;  
+    border-bottom-left-radius: 20em;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+.cub1 {
+    background-color: rgb(57, 57, 97);
+    height: 100px;
+}
+
+.clear {
+    clear: both;
+}
+
+section {
+    background-color: rgb(57, 57, 97);
+    height: 100%;
+    float: left;
+}

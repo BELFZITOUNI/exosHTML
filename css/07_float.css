@@ -18,6 +18,13 @@ body {
     côte à côte alors que selon le flux du web standard les éléments se placent
      les uns au dessus des autres  */
     float: left;
+    transition: border 1s;
+}
+
+/* On modifie au passage de la souris */
+.boite:hover {
+    /* margin: 50px; */
+    border: 5px solid blue;
 }
 
 .clear {
